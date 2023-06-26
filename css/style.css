@@ -7,23 +7,98 @@
 header {
     background-image: url(../img/img/pattern.png);
     background-color: rgb(78,160,255);
+    background-repeat: repeat;
+    background-size: 400px;
     height: 100px;
 }
 
 #logo {
-    width: 150px;
+    width: 200px;
     margin-top: 50px;
-    padding: 5px;
-}
-
-h5 {
-    color: rgb(122, 122, 122);
+    padding-left: 5px;
+    padding-bottom: 50px;
 }
 
 main {
      padding-left: 5px;
 }
 
-li {
-    list-style-type: circle;
+.title {
+    padding-top: 10px;
+    padding-bottom: 20 px;
+}
+
+h5 {
+    color: rgb(119, 119, 119);
+}
+
+.autore {
+    color: #a4daf3;
+}
+
+.images {
+    padding-top: 20px;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ul {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.giallo {
+    background-color: yellow;
+}
+
+table, td, th, tr {
+  border-spacing: 0;
+}
+
+table {
+    padding-top: 20px;
+    table-layout: fixed;
+}
+
+thead {
+    background-color: #21a9e5;
+    color: white;
+}
+
+#Row1 {
+    background-color: #b1e5f2;
+}
+
+#Row2 {
+    background-color: white;
+}
+
+#Row3 {
+    background-color: #b1e5f2;
+}
+
+footer {
+    padding-left: 5px;
+}
+
+nav{
+    color:  rgb(119, 119, 119);
+    size: 10px;
+}
+
+.monitor{
+    color: rgba(255, 255, 255, 0.727);
+    background-image: url(../img/img/monitor.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px, 500px;
+}
+
+.grafico{
+    color: rgba(255, 255, 255, 0.727);
+    background-image: url(../img/img/graph.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px, 500px;
 }
