@@ -89,7 +89,24 @@ nav{
     size: 10px;
 }
 
-.monitor{
+.related_article {
+    width: 250px;
+    height: 250px;
+    color: rgba(255, 255, 255, 0.788);
+    padding: 8px;
+    background-repeat: no-repeat;
+    font-size: 13px;
+}
+
+#monitor{
+    background-image: url(../img/img/monitor.jpg);
+    
+}
+
+#grafico{
+    background-image: url(../img/img/graph.jpg);
+}
+/*.monitor{
     color: rgba(255, 255, 255, 0.727);
     background-image: url(../img/img/monitor.jpg);
     background-repeat: no-repeat;
@@ -101,4 +118,4 @@ nav{
     background-image: url(../img/img/graph.jpg);
     background-repeat: no-repeat;
     background-size: 300px, 500px;
-}
+}*/
